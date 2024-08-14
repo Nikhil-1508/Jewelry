@@ -1,263 +1,345 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
+.playwrite-gb-s-newFont {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
 }
 
-header, nav ,footer{
-    background-color: #0D1321;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playwrite GB S", cursive;
+}
+
+header,
+nav,
+footer {
+  background-color: #0d1321;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0D1321;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1321;
 }
 
 header img {
-    margin: 20px 0px 10px 0px;
-    width: 62vw;
-    height: 140px;
+  margin: 20px 0px 10px 0px;
+  width: 62vw;
+  height: 140px;
 }
 
 nav {
-    background-color: #1D2D44;
-    height: 40px;
+  background-color: #1d2d44;
+  height: 55px;
 }
+
 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 7px;
-    background-color: #1D2D44;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 7px;
+  background-color: #1d2d44;
 }
 
-nav ul li{
-    list-style: none;
+nav ul li {
+  list-style: none;
 }
 
-nav a{
-    background-color: #1D2D44;
-    text-decoration: none;
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1.5rem;       
-    padding: 5px;
+nav a {
+  background-color: #1d2d44;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px;
 }
 
 nav ul:hover > :not(:hover) {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 nav a:hover {
-    transition: 2s;
-    border-bottom: 2px solid white;
+  transition: 2s;
+  border-bottom: 2px solid white;
 }
 
 footer {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
 }
 
-footer img{
-    height: 100px;
-    width: 120px;
+footer img {
+  height: 100px;
+  width: 120px;
 }
 
 footer p {
-    font-size: 16px;
-    color: #f0ebd8be;
+  font-size: 16px;
+  color: #f0ebd8be;
 }
 
 .template {
-    width : 240px;
-    height: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 240px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .template #one {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/r1.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/r1.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template div:hover {
-    transition: 1s;
-    background-position: right;
+  transition: 1s;
+  background-position: right;
 }
 
 .template button {
-    padding: 2px;
+  padding: 2px;
 }
 
 .template #two {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/r2.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/r2.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #three {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/r3.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/r3.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #four {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/r4.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/r4.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #five {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/r5.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/r5.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .container3 {
-    margin: 20px 0 0 12px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap : 20px 10px;
+  margin: 20px 0 0 12px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px 10px;
 }
 
 .template #six {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/c1.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/c1.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #seven {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/c2.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/c2.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #eight {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/c3.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/c3.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #nine {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/c4.png");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/c4.png");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #ten {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/c5.png");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/c5.png");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #eleven {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/b1.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/b1.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #eleven {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/b1.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/b1.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #twelve {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/b2.jpg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/b2.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #thirteen {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/b3.jpeg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/b3.jpeg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #fourt {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/b4.jpeg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/b4.jpeg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template #fift {
-    width: 180px;
-    height: 200px;
-    background-image: url("images/b5.jpeg");
-    background-size: cover;
-    margin-bottom: 10px;
+  width: 194px;
+  height: 160px;
+  border-radius: 8px;
+  background-image: url("images/b5.jpeg");
+  background-size: cover;
+  margin-bottom: 10px;
 }
 
 .template p:nth-child(2) {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .template button {
-    margin: 5px;
-    width: 100px;
-    background-color: #1d2d4456;
-    color: #0D1321;
-    cursor: pointer;
-    border: 1px solid;
+  margin: 5px;
+  width: 100px;
+  background-color: #1d2d4456;
+  color: #0d1321;
+  cursor: pointer;
+  border: 1px solid;
 }
 
 article {
-    border-radius: 14px;
-    box-shadow:  5px 5px 16px #d0d0d0,
-             -5px -5px 16px #f0f0f0;
+  border-radius: 14px;
+  box-shadow: 5px 5px 16px #d0d0d0, -5px -5px 16px #f0f0f0;
 }
 
 .container3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 380px) {
+  header img {
+    width: 62vw;
+    height: 34px;
+  }
+
+  nav {
+    height: auto;
+    max-width: 100%;
+  }
+
+  nav ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    background-color: #1d2d44;
+    height: auto;
+    padding: 10px;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .template #one,
+  .template #two,
+  .template #three,
+  .template #four,
+  .template #five,
+  .template #six,
+  .template #seven,
+  .template #eight,
+  .template #nine,
+  .template #ten,
+  .template #eleven,
+  .template #twelve,
+  .template #thirteen,
+  .template #fourt,
+  .template #fift {
+    border-radius: 8px;
+    width: 194px;
+    height: 160px;
+    border-radius: 8px;
+  }
+
+  footer div > p {
+    font-size: 10px;
+  }
+
+  footer div img {
+    width: 80px;
+    height: 60px;
+  }
 }
